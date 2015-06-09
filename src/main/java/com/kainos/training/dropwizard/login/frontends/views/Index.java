@@ -1,4 +1,4 @@
-package com.kainos.training.login.frontends.login_frontends_2.views;
+package com.kainos.training.dropwizard.login.frontends.views;
 
 import io.dropwizard.views.View;
 

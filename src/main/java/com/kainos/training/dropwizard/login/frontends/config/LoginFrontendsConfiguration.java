@@ -1,4 +1,4 @@
-package com.kainos.training.login.frontends.login_frontends_2.config;
+package com.kainos.training.dropwizard.login.frontends.config;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.*;

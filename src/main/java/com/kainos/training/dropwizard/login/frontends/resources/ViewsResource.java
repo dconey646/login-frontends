@@ -1,10 +1,14 @@
-package com.kainos.training.login.frontends.login_frontends_2.resources;
+package com.kainos.training.dropwizard.login.frontends.resources;
 
 import javax.ws.rs.*;
+
 import com.codahale.metrics.annotation.*;
+
 import javax.ws.rs.core.MediaType;
+
 import io.dropwizard.views.*;
-import com.kainos.training.login.frontends.login_frontends_2.views.*;
+
+import com.kainos.training.dropwizard.login.frontends.views.*;
 
 @Path("/test")
 public class ViewsResource {

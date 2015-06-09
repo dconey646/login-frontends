@@ -1,12 +1,11 @@
-package com.kainos.training.login.frontends.login_frontends_2;
+package com.kainos.training.dropwizard.login.frontends;
 
 import com.google.common.collect.ImmutableMap;
-import com.kainos.training.login.frontends.login_frontends_2.config.LoginFrontendsConfiguration;
-import com.kainos.training.login.frontends.login_frontends_2.resources.ViewsResource;
+import com.kainos.training.dropwizard.login.frontends.config.LoginFrontendsConfiguration;
+import com.kainos.training.dropwizard.login.frontends.resources.ViewsResource;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.*;
-
 import io.dropwizard.views.ViewBundle;
 
 public class LoginFrontendsApplication extends Application<LoginFrontendsConfiguration> {
