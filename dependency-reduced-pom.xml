@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.kainos.training.login.frontends</groupId>
-  <artifactId>login-frontends-2</artifactId>
-  <name>login-frontends-2</name>
+  <groupId>com.kainos.dropwizard.login.frontends</groupId>
+  <artifactId>dropwizard-login-frontends</artifactId>
+  <name>dropwizard-login-frontends</name>
   <version>0.0.1-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
   <build>
@@ -35,7 +35,7 @@
               <transformers>
                 <transformer />
                 <transformer>
-                  <mainClass>com.kainos.training.login.frontends.login_frontends_2.LoginFrontendsApplication</mainClass>
+                  <mainClass>com.kainos.training.dropwizard.login.frontends.LoginFrontendsApplication</mainClass>
                 </transformer>
               </transformers>
             </configuration>

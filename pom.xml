@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.kainos.training.login.frontends</groupId>
-  <artifactId>login-frontends-2</artifactId>
+  <groupId>com.kainos.dropwizard.login.frontends</groupId>
+  <artifactId>dropwizard-login-frontends</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>login-frontends-2</name>
+  <name>dropwizard-login-frontends</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -86,7 +86,7 @@
                       <transformers>
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                          <mainClass>com.kainos.training.login.frontends.login_frontends_2.LoginFrontendsApplication</mainClass>
+                          <mainClass>com.kainos.training.dropwizard.login.frontends.LoginFrontendsApplication</mainClass>
                         </transformer>                      
                       </transformers>
                     </configuration>
