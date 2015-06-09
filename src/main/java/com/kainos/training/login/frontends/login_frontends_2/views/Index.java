@@ -5,7 +5,7 @@ import io.dropwizard.views.View;
 public class Index extends View {
 	
 	public Index() {
-		super("/templates/index.ftl");
+		super("/index.ftl");
 	}
 
 }

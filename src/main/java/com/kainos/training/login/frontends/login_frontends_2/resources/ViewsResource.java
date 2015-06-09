@@ -16,18 +16,19 @@ public class ViewsResource {
 	@Path("/login")
 	@Produces(MediaType.TEXT_HTML)	
 	public View login() {
-		System.out.println("Entered resource method...");
 		return new Index();
 	}
 	
-	@GET
+	@POST
 	@Timed
-	@Path("/login2")
-	@Produces(MediaType.TEXT_HTML)	
-	public String login2() {
-		System.out.println("Entered resource method...");
-		return "Sucess!";
-		// return new Index();
+	@Path("login-details")
+	@Produces(MediaType.TEXT_HTML)
+	public View loginDetails(@FormParam("username") String username,
+			 			     @FormParam("password") String password){
+		if(username.equalsIgnoreCase("damien") && password.equalsIgnoreCase("password")){
+			return new LoginSuccessView();
+		} else {
+			return new LoginFailureView();
+		}
 	}
-
 }

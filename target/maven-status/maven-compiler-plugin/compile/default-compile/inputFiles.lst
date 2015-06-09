@@ -1,5 +1,6 @@
-/Users/simonwn/Documents/workspace/login-frontends-2/src/main/java/com/kainos/training/login/frontends/login_frontends_2/config/LoginFrontendsConfiguration.java
-/Users/simonwn/Documents/workspace/login-frontends-2/src/main/java/com/kainos/training/login/frontends/login_frontends_2/resources/ViewsResource.java
-/Users/simonwn/Documents/workspace/login-frontends-2/src/main/java/com/kainos/training/login/frontends/login_frontends_2/views/Index.java
-/Users/simonwn/Documents/workspace/login-frontends-2/src/main/java/com/kainos/training/login/frontends/login_frontends_2/LoginFrontendsApplication.java
-/Users/simonwn/Documents/workspace/login-frontends-2/src/main/java/com/kainos/training/login/frontends/login_frontends_2/resources/LoginResource.java
+/Users/damienc/sideWork/training/login-frontends/src/main/java/com/kainos/training/login/frontends/login_frontends_2/views/LoginSuccessView.java
+/Users/damienc/sideWork/training/login-frontends/src/main/java/com/kainos/training/login/frontends/login_frontends_2/config/LoginFrontendsConfiguration.java
+/Users/damienc/sideWork/training/login-frontends/src/main/java/com/kainos/training/login/frontends/login_frontends_2/views/LoginFailureView.java
+/Users/damienc/sideWork/training/login-frontends/src/main/java/com/kainos/training/login/frontends/login_frontends_2/resources/ViewsResource.java
+/Users/damienc/sideWork/training/login-frontends/src/main/java/com/kainos/training/login/frontends/login_frontends_2/LoginFrontendsApplication.java
+/Users/damienc/sideWork/training/login-frontends/src/main/java/com/kainos/training/login/frontends/login_frontends_2/views/Index.java
