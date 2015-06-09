@@ -1,7 +1,10 @@
 server:
-   applicationConnectors:
+  applicationConnectors:
     - type: http
       port: 8900
+  adminConnectors:
+    - type: http
+    port: 8901
 
 testConfigVariable: true
 
