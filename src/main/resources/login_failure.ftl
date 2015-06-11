@@ -3,7 +3,7 @@
 <div>
 <p>Login Failed, please click the button below to return to the login screen</p>
 <form method="GET" action="login">
-<input type="submit" value="submit">
+<input type="submit" value="Go back to login screen">
 </form>
 </div>
 </main>
