@@ -20,8 +20,8 @@ public class ViewsResource {
 	
 	private BaseClient baseClient;
 	
-	public ViewsResource() {
-		baseClient = new BaseClient();
+	public ViewsResource(BaseClient baseClient) {
+		this.baseClient = baseClient;
 	}
 
 	@GET
