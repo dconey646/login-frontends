@@ -1,5 +1,6 @@
 package com.kainos.training.dropwizard.login.frontends.resources;
 
+import com.kainos.training.jersey.client.LoginClient;
 import io.dropwizard.views.View;
 
 import org.junit.Before;
@@ -8,7 +9,6 @@ import org.junit.Test;
 import com.kainos.training.dropwizard.login.frontends.views.Index;
 import com.kainos.training.dropwizard.login.frontends.views.LoginFailureView;
 import com.kainos.training.dropwizard.login.frontends.views.LoginSuccessView;
-import com.kainos.training.jersey.client.BaseClient;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
@@ -19,11 +19,11 @@ import static org.hamcrest.core.IsInstanceOf.instanceOf;
 public class ViewsResourceTest {
 	
 	private ViewsResource viewsResource;
-	private BaseClient baseClient;
+	private LoginClient baseClient;
 	
 	@Before
 	public void setup(){
-		baseClient = mock(BaseClient.class);
+		baseClient = mock(LoginClient.class);
 		viewsResource = new ViewsResource(baseClient);
 	}
 	

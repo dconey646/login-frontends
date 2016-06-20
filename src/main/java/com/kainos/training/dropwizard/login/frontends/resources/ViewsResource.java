@@ -1,5 +1,6 @@
 package com.kainos.training.dropwizard.login.frontends.resources;
 
+import com.kainos.training.jersey.client.LoginClient;
 import io.dropwizard.views.View;
 
 import javax.ws.rs.FormParam;
@@ -13,14 +14,13 @@ import com.codahale.metrics.annotation.Timed;
 import com.kainos.training.dropwizard.login.frontends.views.Index;
 import com.kainos.training.dropwizard.login.frontends.views.LoginFailureView;
 import com.kainos.training.dropwizard.login.frontends.views.LoginSuccessView;
-import com.kainos.training.jersey.client.BaseClient;
 
 @Path("/test")
 public class ViewsResource {
 	
-	private BaseClient baseClient;
+	private LoginClient baseClient;
 	
-	public ViewsResource(BaseClient baseClient) {
+	public ViewsResource(LoginClient baseClient) {
 		this.baseClient = baseClient;
 	}
 

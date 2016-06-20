@@ -3,8 +3,8 @@ package com.kainos.training.dropwizard.login.frontends;
 import com.google.common.collect.ImmutableMap;
 import com.kainos.training.dropwizard.login.frontends.config.LoginFrontendsConfiguration;
 import com.kainos.training.dropwizard.login.frontends.resources.ViewsResource;
-import com.kainos.training.jersey.client.BaseClient;
 
+import com.kainos.training.jersey.client.LoginClient;
 import io.dropwizard.Application;
 import io.dropwizard.setup.*;
 import io.dropwizard.views.ViewBundle;
@@ -28,7 +28,7 @@ public class LoginFrontendsApplication extends Application<LoginFrontendsConfigu
 	@Override
 	public void run(LoginFrontendsConfiguration configuration, Environment environment)
 			throws Exception {			
-		BaseClient baseClient = new BaseClient();
+		LoginClient baseClient = new LoginClient();
 		final ViewsResource viewsResource = new ViewsResource(baseClient);
 		environment.jersey().register(viewsResource);
 	}
